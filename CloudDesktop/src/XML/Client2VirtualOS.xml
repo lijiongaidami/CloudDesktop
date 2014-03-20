@@ -7,6 +7,6 @@
 	</client>
 	<client>
 		<clientName>cloud2</clientName>
-		<osTag>cloud2,123456</osTag>
+		<osTag>xx,123</osTag>
 	</client>
 </cloudDesktop>

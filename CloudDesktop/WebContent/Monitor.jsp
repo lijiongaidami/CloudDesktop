@@ -10,8 +10,7 @@
 function initMonitorExe() {
 	try {
 		var wsh = new ActiveXObject("wscript.shell");
-		wsh
-				.run("file:///C:/Users/JustYoung/Documents/Visual Studio 2012/Projects/CloudProcessMonitor/CloudProcessMonitor/bin/Debug/CloudProcessMonitor.exe");
+		wsh.run("file:///C:/Users/JustYoung/Desktop/CloudProcessMonitor.exe");
 	} catch (e) {
 		alert(e.message);
 		return;
@@ -48,7 +47,9 @@ function initMonitorExe() {
 	<%
 		}
 	%>
+	<center>
 	<input type="button" id="Monitor" onclick="initMonitorExe();" style="background:#00ff00" value="监控用户在线情况">
 	<hr>
+	</center>
 </body>
 </html>

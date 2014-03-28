@@ -10,4 +10,8 @@
 		<clientName>cloud2</clientName>
 		<clientpsw>123456</clientpsw>
 	</cloud>
+	<cloud>
+		<clientName>cloud3</clientName>
+		<clientpsw>123456</clientpsw>
+	</cloud>
 </cloudDesktop>

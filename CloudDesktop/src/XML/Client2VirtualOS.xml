@@ -3,10 +3,14 @@
 <cloudDesktop>
 	<client>
 		<clientName>cloud1</clientName>
-		<osTag>wm00,123</osTag>
+		<osTag>wm00,123,192.168.1.139</osTag>
 	</client>
 	<client>
 		<clientName>cloud2</clientName>
-		<osTag>hejiayang,123456</osTag>
+		<osTag>xx,123,192.168.1.139</osTag>
+	</client>
+	<client>
+		<clientName>cloud3</clientName>
+		<osTag>JustYoung,123456,192.168.1.148</osTag>
 	</client>
 </cloudDesktop>
